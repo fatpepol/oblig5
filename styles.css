@@ -48,12 +48,13 @@ h1 {
 section {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
 }
 
 .row {
@@ -63,7 +64,7 @@ section {
 }
 
 .stats {
- width: 132px
+ width: 132px;
 }
 
 .statsImg {
@@ -74,7 +75,8 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: row;
-   height: 325px;
+  gap: 20px;
+   min-height: 325px;
 }
 
 .sprite {
