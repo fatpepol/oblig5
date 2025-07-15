@@ -45,10 +45,10 @@ h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-section {
+/* section {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .column {
   display: flex;
